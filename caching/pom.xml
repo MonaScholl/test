@@ -11,7 +11,18 @@
     <modules>
         <module>module-a</module>
         <module>module-b</module>
+        <module>module-c</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>caching-test</groupId>
+                <artifactId>module-a</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>
