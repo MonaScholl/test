@@ -21,4 +21,4 @@ transformations:
     parameters:
       multiproject: true
       workspace: "@repo"
-      subpath: "caching/"
+      subpath: "module-a"
