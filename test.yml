@@ -9,7 +9,7 @@ transformations:
     service: git-service
     command: checkout
     parameters:
-      repositoryUri: git@github.com:MonaScholl/test.git
+      repositoryUri: https://github.com/MonaScholl/test.git
       branch: develop
 
   - name: compile
