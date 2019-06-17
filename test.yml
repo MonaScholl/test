@@ -10,7 +10,7 @@ transformations:
     command: checkout
     parameters:
       repositoryUri: https://github.com/MonaScholl/test.git
-      branch: develop
+      branch: single-monolith
 
   - name: compile
     service: maven-service

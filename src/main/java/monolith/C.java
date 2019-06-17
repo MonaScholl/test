@@ -1,6 +1,4 @@
-package c;
-
-import a.A;
+package monolith;
 
 public class C {
 

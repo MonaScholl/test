@@ -1,6 +1,6 @@
-caching/.idea/
-caching/*.iml
-caching/*.iws
-caching/*/target/
-caching/target/
-caching/log/
+.idea/
+*.iml
+*.iws
+*/target/
+target/
+log/

@@ -4,25 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>caching-test</groupId>
-    <artifactId>parent</artifactId>
-    <packaging>pom</packaging>
+    <groupId>parent</groupId>
+    <artifactId>monolith</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>module-a</module>
-        <module>module-b</module>
-        <module>module-c</module>
-    </modules>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>caching-test</groupId>
-                <artifactId>module-a</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
 
 </project>

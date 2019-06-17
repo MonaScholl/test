@@ -1,4 +1,4 @@
-package a;
+package monolith;
 
 public class A {
 

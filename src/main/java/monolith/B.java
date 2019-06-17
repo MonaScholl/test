@@ -1,8 +1,8 @@
-package b;
+package monolith;
 
 public class B {
 
     public boolean fooB() {
-        return true;
+        return false;
     }
 }
