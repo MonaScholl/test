@@ -1,5 +1,5 @@
 planner:
-  expand: false
+  expand: true
 
 stages:
   - name: compile
