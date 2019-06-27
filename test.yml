@@ -1,3 +1,6 @@
+planner:
+  expand: true
+
 stages:
   - name: compile
     transformations:
@@ -21,4 +24,3 @@ transformations:
     parameters:
       multiproject: true
       workspace: "@repo"
-      subpath: "module-a"
