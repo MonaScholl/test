@@ -19,6 +19,4 @@ transformations:
       - alias: repo
         ref: p://this/transformations/checkout/workspace
     parameters:
-      multiproject: true
       workspace: "@repo"
-      subpath: "module-a"
