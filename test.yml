@@ -1,5 +1,5 @@
 planner:
-  expand: true
+  expand: false
 
 stages:
   - name: compile
@@ -22,5 +22,4 @@ transformations:
       - alias: repo
         ref: p://this/transformations/checkout/workspace
     parameters:
-      multiproject: true
       workspace: "@repo"
