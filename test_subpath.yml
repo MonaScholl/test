@@ -1,0 +1,24 @@
+stages:
+  - name: compile
+    transformations:
+      - checkout
+      - compile
+
+transformations:
+  - name: checkout
+    service: git-service
+    command: checkout
+    parameters:
+      repositoryUri: https://github.com/MonaScholl/test.git
+      branch: develop
+
+  - name: compile
+    service: maven-service
+    command: cached-compile
+    dependsOn:
+      - alias: repo
+        ref: p://this/transformations/checkout/workspace
+    parameters:
+      multiproject: true
+      workspace: "@repo"
+      subpath: "module-a"
