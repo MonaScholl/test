@@ -3,6 +3,7 @@ package a;
 public class A {
 
     public boolean fooA() {
-        return true;
+        int i = 0;
+        return false;
     }
 }
